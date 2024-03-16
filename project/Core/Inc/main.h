@@ -59,8 +59,11 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define bott_Pin GPIO_PIN_13
 #define bott_GPIO_Port GPIOC
-#define LEDSITO_2_Pin GPIO_PIN_5
-#define LEDSITO_2_GPIO_Port GPIOA
+#define s1_Pin GPIO_PIN_1
+#define s1_GPIO_Port GPIOA
+#define s1_EXTI_IRQn EXTI1_IRQn
+#define led_Pin GPIO_PIN_5
+#define led_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 
